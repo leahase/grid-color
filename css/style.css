@@ -1,7 +1,7 @@
 .container{
     display: grid;
-    grid-template-rows: repeat(12, 1fr);
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(12, 1fr); /*four fr per section*/
+    grid-template-columns: repeat(14, 1fr);
     border: 2px solid blue;
     gap: 2pt;
     height: 90vh;
@@ -19,55 +19,65 @@
 }
 
 .box1 {
-    grid-column: 1 / 4; 
-    grid-row: 1 / 3; 
+    grid-column: 1 / 5; 
+    grid-row: 1 / 4; 
     background-color: rgb(27, 3, 39);
 }
  .box2 {
-    grid-column: 1 / 4;
-    grid-row: 3 / 6 ;
+    grid-column: 1 / 5;
+    grid-row: 4 / 7 ;
     background-color: rgb(39, 4, 56);
 }
 .box3 {
-    grid-column: 1 / 4; 
-    grid-row: 6 / 9; 
+    grid-column: 1 / 5; 
+    grid-row: 7 / 11; 
     background-color: rgb(52, 5, 75);
 }
-/*
+
 .box4 {
-    grid-column: 1 / 2; 
-    grid-row: 2 / 3; 
+    grid-column: 5 / 10; 
+    grid-row: 1 / 7; 
     background-color: rgb(72, 8, 104);
 }
-/* .box5 {
-    grid-column: 2 / 3; 
-    grid-row: 2 / 4; 
+.box5 {
+    grid-column: 10 / 15; 
+    grid-row: 1 / 3; 
     background-color: rgb(99, 10, 143);
-} */
-/* .box6 {
-    grid-column: 3 / 4; 
-    grid-row: 2 / 3; 
+} 
+ .box6 {
+    grid-column: 10 / 15; 
+    grid-row: 3 / 5; 
     background-color: rgb(119, 12, 173);
 }
-
 .box7 {
-    grid-column: 1 / 2; 
-    grid-row: 3 / 4; 
+    grid-column: 10 / 15; 
+    grid-row: 5 / 7; 
     background-color: rgb(118, 11, 172);
 }
 
 .box8 {
-    grid-column: 2 / 3; 
-    grid-row: 3 / 4; 
+    grid-column: 5 / 8; 
+    grid-row: 7 / 9; 
     background-color: rgb(151, 11, 221);
-} */
-/* .box9 {
+} 
+.box9 {
+    grid-column: 5 / 8;
+    grid-row: 9 / 11; 
+    background-color: rgb(170, 13, 248);
+}
+/* .box10 {
     grid-column: 3 / 4;
     grid-row: 3 / 4; 
     background-color: rgb(170, 13, 248);
 }*/
+/* .box11 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4; 
+    background-color: rgb(170, 13, 248);
+}*/
+
 .palette{ 
-    grid-column: 1 / 12; 
+    grid-column: 1 / 15; 
     grid-row: 11 / 13; 
     background-color: rgb(175, 20, 252);
 } 
